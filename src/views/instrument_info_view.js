@@ -13,7 +13,7 @@ InstrumentInfoView.prototype.bindEvents = function(){
 
 InstrumentInfoView.prototype.render = function(instrument){
   const infoParagraph = document.createElement('p');
-  infoParagraph.textContent = `Instrument: ${instrument.name}`;
+  infoParagraph.textContent = `Family: ${instrument.name}`;
 
   const infoParagraph2 = document.createElement('p');
   infoParagraph2.textContent = `Description: ${instrument.description}`;
